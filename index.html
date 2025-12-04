@@ -1,9 +1,116 @@
-<html>
-  <head>
-    <title> MY first web page</title>
-  </head>
-  <body>
-    <h1> Hi my name is Leocadio D. Bacha jr,</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Bio Profile</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: #e9eef3;
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile-card {
+            width: 70%;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 14px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+
+        .photo img {
+            width: 230px;
+            height: 270px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 3px solid #d3d3d3;
+        }
+
+        .details {
+            flex: 1;
+        }
+
+        h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        .basic-info p {
+            margin: 6px 0;
+            color: #444;
+        }
+
+        h2 {
+            margin-top: 25px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            margin: 8px 0 0 20px;
+            line-height: 1.6;
+        }
+
+        blockquote {
+            margin-top: 12px;
+            background: #eef4fb;
+            padding: 12px 18px;
+            border-left: 5px solid #3498db;
+            font-style: italic;
+            color: #333;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="profile-card">
     
-  </body>
+    <div class="photo">
+        <img src="https://github.com/lomibaojoshualhynson-cmyk/WEB101-22017/blob/main/Gemini_Generated_Image_satwdpsatwdpsatw.png?raw=true" alt="Profile Photo">
+    </div>
+
+    <div class="details">
+        <h1>Leocadio D, Bacha jr</h1>
+
+        <div class="basic-info">
+            <p><strong>Birthdate:</strong> August 21, 2006/p>
+            <p><strong>Birthplace:</strong> Lianga surigao del sur</p>
+            <p><strong>Age:</strong> 19</p>
+            <p><strong>Sex:</strong> Male</p>
+        </div>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Creativity</li>
+            <li>Time Management</li>
+            <li>Adaptability</li>
+        </ul>
+
+        <h2>Hobbies</h2>
+        <ul>
+            <li>playing online games</li>
+            <li>Cooking</li>
+            <li>reading manwa</li>
+            <li>Exploring nature</li>
+        </ul>
+
+        <h2>Life Principle</h2>
+        <blockquote>
+            "Trust can build a world—and it can also destroy it. Choose to be honest even when no one is watching.”
+        </blockquote>
+    </div>
+
+</div>
+
+</body>
 </html>
